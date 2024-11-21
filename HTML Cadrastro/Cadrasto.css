@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}/*ZERANDO AS PROPRIEDADES*/
+
+body {
+    /*colocando o fundo*/
+    background: url('img/k.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: #831ed2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #bde345;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+    
+}
+/*Registro*/
+
+.accont-link{
+    justify-content: center;
+    display: flex;
+    color: #bde345;
+    font-size: 20px;
+
+}
+.wrapper{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    color: #bde345;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none; border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,100,0, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.Genero{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.Genero label{
+    margin: 10px;
+}
+
+.wrapper .box label{
+    margin: 40px 10px;
+}
+.wrapper .box input{
+    margin: 0px 10px;
+}
+
+.wrapper .box{
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+    background: transparent;
+    border: none;
+    outline: none; border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,100,0, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 15px 10px 10px 10px;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #bde345;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #831ed2;
+    font-weight: 600;
+}
+.wrapper .accont-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.accont-link p a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.accont-link p a:hover{
+    text-decoration: underline;
+}
+
+.porque{
+    color: #bde345;
+    text-align: center;
+}
+.porque h1{
+    margin: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none; border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,100,0, .2);
+    border-radius: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.porque .beneficios{
+    font-size: 17px;
+    margin: 0 20px 20px 20px;
+    
+}
